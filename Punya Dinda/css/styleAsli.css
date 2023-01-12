@@ -1,0 +1,247 @@
+body {
+    background-image: url('background.jpg') !important;
+    background-size: cover;
+    background-color: black !important;
+    color: white;
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background: rgb(218, 187, 17);
+    border-radius: 0px;
+    font-weight: 18px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo img {
+    width: 50px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 140%;
+    width: 100%;
+    align-items: center;
+    top: 0;
+}
+
+label {
+    font-size: 20pt;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+
+.header-list {
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: right;
+
+}
+
+#dropdown {
+    display: none;
+    background: goldenrod;
+    margin-top: -1em;
+}
+
+#dropdown:hover {
+    display: block !important;
+}
+
+.header-list li:hover~#dropdownn {
+    display: block;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.header ul li a:hover {
+    display: block;
+    color: goldenrod;
+    background: black;
+}
+
+.header ul li .dropdown {
+    display: block;
+}
+
+.header ul li:hover .dropdown {
+    display: block;
+    background: white;
+    position: absolute;
+    padding: 10px;
+}
+
+.header ul li:hover .dropdown li {
+    display: block;
+}
+
+.header ul li:hover .dropdown li a {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.header ul li:hover .dropdown li a:hover {
+    background: #222;
+}
+
+
+
+.header-list {
+    width: 80%;
+    margin-left: auto !important;
+}
+
+.header-list li:hover~#dropdown {
+    display: block !important;
+}
+
+.image {
+    width: 200px;
+    height: 100px;
+}
+
+.text {
+    color: white;
+    background: none;
+    padding-top: 90px;
+    padding-left: px;
+}
+
+.t-name {
+    display: flex;
+}
+
+h1 {
+    font-size: 70px;
+
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -1.01px;
+
+    margin-bottom: 0;
+}
+
+.pdosen {
+    color: white;
+    background: none;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.h2 {
+    font-size: 35px;
+    font: bold;
+}
+
+.p1 {
+    font-size: 18px;
+}
+
+.content-photo img {
+    width: 490px;
+    padding-top: 41px;
+    padding-left: 60px;
+}
+
+.content-image img {
+    width: 330px;
+    background: none;
+    padding-left: 130px;
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+.about {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about img {
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.about-text {
+    width: 500px;
+    color: white;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.j-bg {
+    background-color: rgba(218, 188, 17, 0.384);
+    background-position: center;
+    color: white;
+}
+
+.colums {
+    padding: 1px;
+    padding-left: 50px;
+    font-variant-position: normal;
+    background-position: center;
+}
+
+.table-box {
+    margin: 50px auto;
+}
+
+.table-row {
+    display: table;
+    width: 100%;
+    margin: 10px auto;
+    background: rgba(255, 255, 255, 0.404);
+    padding: 12px 0;
+    color: blawck;
+    font-size: 13px;
+    box-shadow: 0 1px 4 px 0 rgba(255, 255, 255, 0.281);
+}
+
+.table-cell {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4x 0;
+    border-right: 1px solid black;
+    vertical-align: middle;
+}
