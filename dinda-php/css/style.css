@@ -1,0 +1,26 @@
+body {
+    background-color: black !important;
+    color: #ffff !important;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.navbar-nav {
+    margin-left: 550pt;
+}
+
+.nav-item {
+    padding: 0px 7px;
+    font-size: 13pt;
+}
+
+@media all and (max-width: 1000px) {
+    .navbar-nav {
+        margin-left: 0pt;
+        align-items: flex-start;
+    }
+}
